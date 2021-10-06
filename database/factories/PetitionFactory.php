@@ -26,7 +26,7 @@ class PetitionFactory extends Factory
             'category'=>$this->faker->text(50),
             'description'=>$this->faker->text(200),
             'author'=>$this->faker->name,
-            'user_id'=>$this->faker->numberBetween(0,18555),
+            'user_id'=>$this->faker->numberBetween(0,9999),
         ];
     }
 }
